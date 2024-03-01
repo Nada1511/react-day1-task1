@@ -1,0 +1,29 @@
+
+/* ImageSlider.css */
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-slider .controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-slider .controls button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
